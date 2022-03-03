@@ -1,0 +1,83 @@
+h1{
+    text-align:center
+}
+
+body{
+    background-color:linen;
+}
+
+.form{
+    font-size:24px;
+    text-align:center;
+}
+
+input[type='text']{
+    border: 2px solid blue;
+    padding:8px;
+    border-radius:4px;
+}
+
+.c{
+    border-radius:2px;
+    background-color:mediumseagreen;
+}
+
+.nc{
+    border-radius:2px;
+    color:white;
+    background-color:tomato;
+}
+
+.button {
+    background-color: blue;
+    border: none;
+    border-radius:4px;
+    color: white;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+  }
+
+.update:link, .update:visited {
+    border: 1px solid blue;
+    color: black;
+    padding: 6px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .update:hover, .update:active {
+    background-color: blue;
+    color:white;
+  }
+
+.delete:link, .delete:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 6px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .delete:hover, .delete:active {
+    background-color: red;
+  }
+
+  .item{
+      background-color:lightgrey;
+      padding-top:0.1px;
+      padding-left:5px;
+      border-left-style:solid;
+      border-left-width:5px;
+      border-left-color:dodgerblue;
+      line-height:0.7;
+  }
+
+  </style>
+  </head>
+  <body>
+  
